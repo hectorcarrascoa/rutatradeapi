@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Layer.Dao\Layer.Dao.csproj" />
+    <ProjectReference Include="..\Layer.Entity\Layer.Entity.csproj" />
+    <ProjectReference Include="..\Layer.Functions\Layer.Functions.csproj" />
+  </ItemGroup>
+
+</Project>
