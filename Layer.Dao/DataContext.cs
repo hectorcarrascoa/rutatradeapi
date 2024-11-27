@@ -12,7 +12,7 @@ namespace Layer.Dao
         public DataContext(DbContextOptions<DataContext> options)
         : base(options)
         {
-
+            //Test
         }
 
         #region ----- Declaración de tablas iniciales -----
